@@ -1,0 +1,58 @@
+[
+      {
+        "recipe_id": 1,
+        "recipe_name": "Spaghetti Carbonara",
+        "short_description": "Classic Italian pasta dish with creamy sauce",
+        "ingredients": ["200g spaghetti", "150g pancetta", "2 eggs & 2 garlic"],
+        "preparing_time": 30 ,
+        "calories": 450 ,
+        "recipe_image": "https://i.ibb.co/gZYYkJ9/1.webp"
+      },
+      {
+        "recipe_id": 2,
+        "recipe_name": "Vegetable Stir Fry ",
+        "short_description": "Quick and healthy vegetable stir fry sauce",
+        "ingredients": ["2 bell pepper", "1 broccoli & 2 soy sauce", "1 carrot" ],
+        "preparing_time": 15 ,
+        "calories": 250 ,
+        "recipe_image": "https://i.ibb.co/mGq4wXN/2.webp"
+      },
+      {
+        "recipe_id": 3,
+        "recipe_name": "Grilled Salmon",
+        "short_description": "Delicious and nutritious grilled salmon dish",
+        "ingredients": ["2 salmon fillets", "200g asparagus & 1 lemon", "2 tbsp olive oil"],
+        "preparing_time": 25,
+        "calories": 350,
+        "recipe_image": "https://i.ibb.co/j5BtGq3/3.webp"
+      },
+      {
+        "recipe_id": 4,
+        "recipe_name": "Chicken Caesar Salad",
+        "short_description": "Classic Caesar salad topped with grilled chicken",
+        "ingredients": ["2 chicken breasts", "1 head romaine lettuce & Caesar", "100g tomatoes & 50g croutons"],
+        "preparing_time": 30,
+        "calories": 320 ,
+        "recipe_image": "https://i.ibb.co/yh12nrH/4.webp"
+      },
+      {
+        "recipe_id": 5,
+        "recipe_name": "Mushroom Risotto",
+        "short_description": "Creamy risotto with mushrooms and Parmesan",
+        "ingredients": ["300g rice & 200g mushrooms","2 cloves garlic & 1 onion", "1vegetable"],
+        "preparing_time": 35 ,
+        "calories": 380,
+        "recipe_image": "https://i.ibb.co/FnZbrdx/5.webp"
+      },
+      {
+        "recipe_id": 6,
+        "recipe_name": "Beef Tacos",
+        "short_description": "Flavorful beef tacos with homemade salsa",
+        "ingredients": ["300g beef & 1 avocado", "1 onion & 1 lime", "2 tomatoes"],
+        "preparing_time": 25,
+        "calories": 400,
+        "recipe_image": "https://i.ibb.co/tmJ8q0y/6.webp"
+      }
+    ]
+
+  
