@@ -61,8 +61,8 @@ const Cart = ({ carts, handleDelete, carts2 }) => {
                             <tr className="text-[#636363]">
                                 <th></th>
                                 <td></td>
-                                <th>Total Time = <span className="">{carts2.reduce((p, e) => p + e.preparing_time, 0)}</span>  minutes</th>
-                                <th>Total Calories = <span className="p-4 pr-1">{carts2.reduce((p, e) => p + e.calories, 0)}  </span> Calories</th>
+                                <th>Total Time = <span >{carts2.reduce((p, e) => p + e.preparing_time, 0)}</span>  minutes</th>
+                                <th>Total Calories = <span>{carts2.reduce((p, e) => p + e.calories, 0)}  </span> Calories</th>
                             </tr>
                         </tbody>
                     </table>
