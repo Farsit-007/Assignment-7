@@ -39,7 +39,7 @@ const Cart = ({ carts, handleDelete, carts2 }) => {
             <h1 className="text-center text-[24px] text-[#150B2B] lexend font-semibold">Currently cooking: {carts2.length}</h1>
             </div>
             <div>
-                <div >
+                <div>
                     <table className="table">
                         <thead>
                             <tr className="fira_sans text-[16px] text-[#878787]">

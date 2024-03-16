@@ -34,10 +34,10 @@ function App() {
             <Banner></Banner>
             <div className="container mx-auto lg:px-16 py-5">
                 <div className='grid grid-cols-12 gap-8'>
-                    <div className='col-span-12 md:col-span-7'>
+                    <div className='col-span-12 lg:col-span-7'>
                         <Cards handlecartButton={handlecartButton}></Cards>
                     </div>
-                    <div className='col-span-12 md:col-span-5'>
+                    <div className='col-span-12 lg:col-span-5'>
                         <Cart carts={carts} carts2={carts2} handleDelete={handleDelete}></Cart>
                     </div>
                 </div>
