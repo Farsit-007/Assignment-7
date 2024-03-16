@@ -6,6 +6,7 @@ import Cart from './Component/Cart/Cart';
 import Header from './Component/Header/Header';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Footer from './Component/Footer/Footer';
 function App() {
     const [carts, setCarts] = useState([]);
     const [carts2, setCarts2] = useState([]);
@@ -42,6 +43,7 @@ function App() {
                 </div>
                 <ToastContainer />
             </div>
+            <Footer></Footer>
         </>
     );
 }

@@ -1,7 +1,10 @@
 const Cart = ({ carts, handleDelete, carts2 }) => {
     return (
         <div className="border-2 rounded-lg space-y-4">
+            <div className="max-w-[350px] mx-auto border-b-2 p-5">
             <h1 className="text-center text-xl font-semibold">Want to cook: {carts.length}</h1>
+            </div>
+           
             <div>
                 <div className="overflow-x-auto">
                     <table className="table">
@@ -30,7 +33,9 @@ const Cart = ({ carts, handleDelete, carts2 }) => {
                     </table>
                 </div>
             </div>
+            <div className="max-w-[350px] mx-auto border-b-2 p-5">
             <h1 className="text-center text-xl font-semibold">Currently cooking: {carts2.length}</h1>
+            </div>
             <div>
                 <div className="overflow-x-auto">
                     <table className="table">

@@ -8,7 +8,7 @@ const Banner = () => {
                 style={{ backgroundImage: `url(${profile})` }}>
                 <div className="flex flex-col justify-center items-center min-h-[550px] space-y-5 lg:w-[77%] mx-auto">
                     <h1 className="text-3xl md:text-[52px] leading-tight text-center text-white font-bold">Discover an exceptional cooking class tailored for you!</h1>
-                    <p className="text-white text-center text-lg">Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+ coding problems to become an exceptionally well world-class Programmer.</p>
+                    <p className="text-white text-center text-lg">Unlock your culinary potential with our personalized cooking classes designed just for you. From beginner basics to advanced techniques, embark on a flavorful journey with expert guidance.</p>
                     <div className='flex gap-10 items-center pt-4'>
                         <button className="btn bg-[#0BE58A] border-none px-6 rounded-3xl text-lg"> Explore Now</button>
                         <button className="btn bg-transparent text-white border-white px-6 rounded-3xl text-lg">Our Feedback</button>
@@ -16,9 +16,9 @@ const Banner = () => {
 
                 </div>
             </div>
-            <div className="py-14  text-center">
-                    <h1 className="font-raleway text-xl lg:text-[40px] font-bold text-[#030712]">Our Recipes</h1>
-                    <p className="lg:text-lg lg:w-[691px] mx-auto my-6 text-[#030712CC]">Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget urna volutpat curabitur elementum mauris aenean neque. </p>
+            <div className="pt-10  text-center">
+                    <h1 className="text-xl lg:text-[40px] font-bold text-[#030712]">Our Recipes</h1>
+                    <p className="lg:text-lg lg:w-[691px] mx-auto py-6 text-[#030712CC]">Indulge in a rich assortment of recipes curated for every taste bud. From appetizers to desserts, find culinary inspiration to elevate your cooking game.</p>
                 </div>
         </section>
     );
