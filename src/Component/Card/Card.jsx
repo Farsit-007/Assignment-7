@@ -12,7 +12,7 @@ const Card = ({ cards ,handlecartButton}) => {
                         <p>{short_description}</p>
                     </div>
                     <div className="border-b-2 pb-4">
-                        <h1>Ingredients: 6</h1>
+                        <h1>Ingredients: {cards.ingredients.length}</h1>
                         <div className="ml-8">
                             <ul className="list-disc">
                                 {cards.ingredients.map((ingredient, i) => (

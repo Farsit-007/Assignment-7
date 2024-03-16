@@ -4,7 +4,7 @@ import Card from "../Card/Card";
 const Cards = ({handlecartButton}) => {
     const[cards,setCards] = useState([])
     useEffect(()=>{
-        fetch('../../../public/Data.json')
+        fetch('./Data.json')
         .then(res =>res.json())
         .then(data => setCards(data))
     },[])
