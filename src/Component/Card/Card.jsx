@@ -6,7 +6,7 @@ const Card = ({ cards ,handlecartButton}) => {
     const { recipe_image, recipe_name, short_description,preparing_time,calories } = cards;
     return (
         <div>
-            <div className="card bg-base-100 border-2 p-2 h-[550px]">
+            <div className="card bg-base-100 border-2 p-2 h-[630px]">
                 <figure className="w-full p-2"><img className="rounded-3xl" src={recipe_image} alt="Shoes" /></figure>
                 <div className="card-body p-3">
                     <div className="border-b-2 pb-1">
